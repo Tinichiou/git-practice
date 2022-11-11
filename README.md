@@ -36,5 +36,7 @@
    - ```git merge B```會發生衝突, 選擇accept both
    - 因為是新的內容所以要 ```git add .```, ```git commit -m "merge A and B"```, ```git push```
 3. 此時github上main分支有A+B, A分支只有I am A, B分支只有I am B
-#### 
-
+#### 各自pull最新版本到地端
+1. 切換到各自的branch, ```git pull origin main```
+2. 各自 add, commit, push
+3. 此時github上 main, A, B都是A+B的最新版本 
