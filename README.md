@@ -40,3 +40,8 @@
 1. 切換到各自的branch, ```git pull origin main```
 2. 各自 add, commit, push
 3. 此時github上 main, A, B都是A+B的最新版本 
+
+
+#### 其他指令
+1. 取消add: ```git reset <file>``` 或是 ```git rerset```
+2. git add 全部除了特定folder或檔案: ```git add -- . ':!<path>'```
